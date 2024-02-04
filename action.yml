@@ -1,0 +1,7 @@
+# action.yml
+name: 'Coq Compilation'
+description: 'Compile a Coq-Project using Coq-Equations!'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
